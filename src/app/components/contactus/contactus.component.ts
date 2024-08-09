@@ -11,6 +11,9 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './contactus.component.css'
 })
 export class ContactusComponent {
+  onSubmit(arg0: { name: string; email: string; subject: string; message: string; }) {
+    throw new Error('Method not implemented.');
+  }
   formData = {
     name: '',
     email: '',

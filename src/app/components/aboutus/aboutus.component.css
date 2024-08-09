@@ -51,7 +51,7 @@ p {
 .team-member h4 {
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
-  color: #333;
+  color: #000000;
 }
 
 .team-member p {
@@ -66,4 +66,10 @@ p {
 
 .contact-info strong {
   color: #333;
+}
+footer{
+  background-color:#215e69 ;
+  text-align: center;
+  
+
 }
