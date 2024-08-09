@@ -1,0 +1,13 @@
+
+<div class="resources-container">
+    <h2>Resources</h2>
+    <div class="resource-cards">
+      <div class="resource-card" *ngFor="let resource of resources">
+        <img [src]="resource.imageUrl" alt="{{ resource.title }}" class="resource-image" />
+        <h3>{{ resource.title }}</h3>
+        <p>{{ resource.description }}</p>
+        <a  class="view-details">View More Details</a>
+      </div>
+    </div>
+  </div>
+  

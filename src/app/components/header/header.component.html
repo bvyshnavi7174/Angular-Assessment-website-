@@ -1,0 +1,16 @@
+<header>
+    <div class="logo">EDUTECH</div>
+    <div class="menu-icon" (click)="toggleMenu()">☰</div>
+    <nav [class.active]="menuActive">
+      <ul>
+        <li><a routerLink="/home" (click)="closeMenu()">Home</a></li>
+        <li><a routerLink="/resources" (click)="closeMenu()">Resources</a></li>
+        <li><a routerLink="/aboutus" (click)="closeMenu()">About Us</a></li>
+        <li><a routerLink="/contactus" (click)="closeMenu()">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <router-outlet></router-outlet>
+  
+
+
